@@ -1,0 +1,44 @@
+.repos {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  justify-content: center;
+  align-items: center;
+}
+
+.repoBox {
+  display: flex;
+  flex-direction: column;
+  background-color: purple;
+  width: 500px;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 5px 0px;
+}
+
+.repoBox:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  margin: 45px 0px;
+}
+
+.repoName {
+  font-size: 44px;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+img {
+  object-fit: contain;
+  height: 50%;
+  width: 50%;
+  border-radius: 100%;
+}
+
+a {
+  color: black;
+}
